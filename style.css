@@ -1,0 +1,57 @@
+body, html{
+  background-color: #000000;
+  padding: 0px;
+  margin: 0px;
+  background-image: url('textured-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+@font-face {
+  font-family: EditorialNew;
+  src: url(EditorialNew-Ultralight.otf);
+}
+
+.mainContainer {
+  font-family: EditorialNew;
+  color: white;
+  line-height: 0.02vmin;
+  font-size: 50vmin;
+  transform: rotate(270deg);
+  transform-origin: 36% 100%;
+  margin-top: 450px;
+  margin-left: 50px;
+  height: 650px;
+
+}
+
+.column{
+  display: flex;
+  justify-content:flex-end;
+  flex-direction: row;
+  width: 1450px;
+  height: 400px;
+  align-content: flex-end;
+  padding: 2vmin;
+}
+
+.lastColumn{
+
+padding-left: 8vmin;
+
+}
+
+.so {
+  transform: skew(135deg, 233deg) scale(1.4,1.3);
+  font-size: 18vmin;
+  padding: 12vmin 0px 0px 12vmin;
+}
+
+.of{
+  transform: skew(340deg, 230deg) scaleY(2);
+  font-size: 22vmin;
+  padding: 10vmin 5vmin 25vmin 3vmin;
+
+}
